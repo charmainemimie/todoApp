@@ -9,6 +9,8 @@ body{
 .container{
     display: flex;
     gap: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.384);
+    border-radius: 12px;
 }
 
 #tasks{
@@ -19,6 +21,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .options{
     display: flex;
@@ -32,4 +35,15 @@ i{
 
 #msg{
     color: red;
+}
+
+#btn{
+    background-color: blueviolet;
+    width: 60px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+#input{
+    border-radius: 12px;
 }
