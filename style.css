@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    margin: 0 50px;
+    /*background-image: url('https://source.unsplash.com/1600x900/?landscape');*/
+    background: linear-gradient(to right, #00aaff,purple);
+   
+}
+
+.container{
+    display: flex;
+    gap: 100px;
+}
+
+#tasks{
+    width: 350px;
+}
+
+#tasks div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    gap: 25px;
+    
+}
+i{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#msg{
+    color: red;
+}
